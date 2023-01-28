@@ -1,0 +1,109 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "createNewCourierTest",
+    "uid" : "e1f5bd0e99bfefb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1674898662969,
+      "stop" : 1674898667143,
+      "duration" : 4174
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "createNewCourierWithoutRequiredFieldsTest",
+    "uid" : "875a06faf9ac2fb5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1674898667205,
+      "stop" : 1674898667919,
+      "duration" : 714
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cantCreateTwoOwnersCouriersTest",
+    "uid" : "9d9c415a7cc52304",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1674898667925,
+      "stop" : 1674898668791,
+      "duration" : 866
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cantDeleteCouriersWithoutNonExistentIdTest",
+    "uid" : "9e4ac7387a1dfaac",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1674898668794,
+      "stop" : 1674898669018,
+      "duration" : 224
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "checkingRequiredFieldsDuringPasswordTest",
+    "uid" : "9a9ebcb26948d711",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1674898669020,
+      "stop" : 1674898669955,
+      "duration" : 935
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "nonExistentPasswordTest",
+    "uid" : "8ad9ecdfd69c5f88",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1674898669957,
+      "stop" : 1674898670942,
+      "duration" : 985
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "checkingRequiredFieldsDuringLoginPasswordTest",
+    "uid" : "f80e7b57a631a9fc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1674898670943,
+      "stop" : 1674898671721,
+      "duration" : 778
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "nonExistentUsernameTest",
+    "uid" : "52d4e4e6daf85923",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1674898671723,
+      "stop" : 1674898672227,
+      "duration" : 504
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

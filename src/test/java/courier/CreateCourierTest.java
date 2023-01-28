@@ -5,6 +5,8 @@ import io.restassured.response.Response;
 import org.junit.Test;
 import request.CourierRequests;
 
+import static org.apache.http.HttpStatus.SC_BAD_REQUEST;
+import static org.apache.http.HttpStatus.SC_CREATED;
 import static org.hamcrest.Matchers.equalTo;
 
 public class CreateCourierTest extends BaseCourierTest{
@@ -17,7 +19,7 @@ public class CreateCourierTest extends BaseCourierTest{
         DtoCourier courier = new DtoCourier(login, password, "Alexey");
         Response response = CourierRequests.createCourier(courier);
         response.then().assertThat()
-                .statusCode(201)
+                .statusCode(SC_CREATED)
                 .and()
                 .body("ok", equalTo(true));
         courier = new DtoCourier(login, password);
@@ -30,21 +32,21 @@ public class CreateCourierTest extends BaseCourierTest{
         DtoCourier courier = new DtoCourier("", password, "Alexey");
         Response response = CourierRequests.createCourier(courier);
         response.then().assertThat()
-                .statusCode(400)
+                .statusCode(SC_BAD_REQUEST)
                 .and()
                 .body("message", equalTo("Недостаточно данных для создания учетной записи"));
 
         courier = new DtoCourier(login, "", "Alexey");
         response = CourierRequests.createCourier(courier);
         response.then().assertThat()
-                .statusCode(400)
+                .statusCode(SC_BAD_REQUEST)
                 .and()
                 .body("message", equalTo("Недостаточно данных для создания учетной записи"));
 
         courier = new DtoCourier(login, password, "");
         response = CourierRequests.createCourier(courier);
         response.then().assertThat()
-                .statusCode(201)
+                .statusCode(SC_CREATED)
                 .and()
                 .body("ok", equalTo(true));
     }
@@ -57,7 +59,7 @@ public class CreateCourierTest extends BaseCourierTest{
         DtoCourier courier = new DtoCourier(login, password, "Alexey");
         Response response = CourierRequests.createCourier(courier);
         response.then().assertThat()
-                .statusCode(201)
+                .statusCode(SC_CREATED)
                 .and()
                 .body("ok", equalTo(true));
 

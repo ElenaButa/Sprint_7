@@ -1,4 +1,4 @@
-courier/LoginCourierTest.class
-courier/CreateCourierTest.class
-courier/BaseCourierTest.class
-courier/DeleteCourierTest.class
+courier\BaseCourierTest.class
+courier\CreateCourierTest.class
+courier\DeleteCourierTest.class
+courier\LoginCourierTest.class

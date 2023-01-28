@@ -3,6 +3,7 @@ package request;
 import dto.DtoCourier;
 import io.restassured.response.Response;
 
+import static data.DataOrders.COURIER_URL;
 import static io.restassured.RestAssured.given;
 
 public class CourierRequests {
@@ -12,7 +13,7 @@ public class CourierRequests {
                 .and()
                 .body(dtoCourier)
                 .when()
-                .post("/api/v1/courier");
+                .post(COURIER_URL);
         return response;
     }
 
@@ -22,7 +23,7 @@ public class CourierRequests {
                 .and()
                 .body(dtoCourier)
                 .when()
-                .post("/api/v1/courier/login");
+                .post(COURIER_URL + "/login");
         return response;
     }
 
@@ -32,7 +33,7 @@ public class CourierRequests {
                 .and()
                 .pathParam("id", dtoCourier.getId())
                 .when()
-                .delete("/api/v1/courier/{id}");
+                .delete(COURIER_URL + "/{id}");
         return response;
     }
 

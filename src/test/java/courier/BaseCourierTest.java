@@ -6,6 +6,7 @@ import io.restassured.response.Response;
 import org.junit.Before;
 import request.CourierRequests;
 
+import static org.apache.http.HttpStatus.SC_OK;
 import static org.hamcrest.Matchers.equalTo;
 
 public class BaseCourierTest {
@@ -18,13 +19,13 @@ public class BaseCourierTest {
     protected void loginAndDeleteCourier(DtoCourier courier) {
         Response response = CourierRequests.loginCourier(courier);
         response.then().assertThat()
-                .statusCode(200);
+                .statusCode(SC_OK);
         courier = response
                 .as(DtoCourier.class);
 
         response = CourierRequests.deleteCourier(courier);
         response.then().assertThat()
-                .statusCode(200)
+                .statusCode(SC_OK)
                 .and()
                 .body("ok", equalTo(true));
     }

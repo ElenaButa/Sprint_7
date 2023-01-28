@@ -1,7 +1,7 @@
-request/OrderRequests.class
-dto/DtoOrders.class
-request/CourierRequests.class
-dto/DtoCourier.class
-dto/DtoOrder.class
-data/DataOrders.class
-dto/DtoOrdersList.class
+dto\DtoOrders.class
+dto\DtoOrder.class
+dto\DtoOrdersList.class
+dto\DtoCourier.class
+data\DataOrders.class
+request\CourierRequests.class
+request\OrderRequests.class

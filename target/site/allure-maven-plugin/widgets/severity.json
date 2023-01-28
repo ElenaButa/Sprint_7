@@ -1,0 +1,81 @@
+[ {
+  "uid" : "f80e7b57a631a9fc",
+  "name" : "checkingRequiredFieldsDuringLoginPasswordTest",
+  "time" : {
+    "start" : 1674898670943,
+    "stop" : 1674898671721,
+    "duration" : 778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d9c415a7cc52304",
+  "name" : "cantCreateTwoOwnersCouriersTest",
+  "time" : {
+    "start" : 1674898667925,
+    "stop" : 1674898668791,
+    "duration" : 866
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a9ebcb26948d711",
+  "name" : "checkingRequiredFieldsDuringPasswordTest",
+  "time" : {
+    "start" : 1674898669020,
+    "stop" : 1674898669955,
+    "duration" : 935
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ad9ecdfd69c5f88",
+  "name" : "nonExistentPasswordTest",
+  "time" : {
+    "start" : 1674898669957,
+    "stop" : 1674898670942,
+    "duration" : 985
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e4ac7387a1dfaac",
+  "name" : "cantDeleteCouriersWithoutNonExistentIdTest",
+  "time" : {
+    "start" : 1674898668794,
+    "stop" : 1674898669018,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "875a06faf9ac2fb5",
+  "name" : "createNewCourierWithoutRequiredFieldsTest",
+  "time" : {
+    "start" : 1674898667205,
+    "stop" : 1674898667919,
+    "duration" : 714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52d4e4e6daf85923",
+  "name" : "nonExistentUsernameTest",
+  "time" : {
+    "start" : 1674898671723,
+    "stop" : 1674898672227,
+    "duration" : 504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1f5bd0e99bfefb",
+  "name" : "createNewCourierTest",
+  "time" : {
+    "start" : 1674898662969,
+    "stop" : 1674898667143,
+    "duration" : 4174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

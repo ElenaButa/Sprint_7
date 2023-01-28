@@ -11,5 +11,6 @@ public class DataOrders {
     public static final String comment = "I want to eat";
     public static final String[] color = {"BLUE"};
 
+    public static final String COURIER_URL = "/api/v1/courier";
 
 }
