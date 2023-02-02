@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: orders.СompleteOrderTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.921 s <<< FAILURE! - in orders.СompleteOrderTest
+completedOrderTest(orders.СompleteOrderTest)  Time elapsed: 1.915 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at orders.СompleteOrderTest.completedOrderTest(СompleteOrderTest.java:72)
+

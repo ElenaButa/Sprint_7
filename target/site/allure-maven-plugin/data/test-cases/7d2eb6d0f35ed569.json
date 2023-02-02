@@ -1,0 +1,56 @@
+{
+  "uid" : "7d2eb6d0f35ed569",
+  "name" : "createNewCourierTest",
+  "fullName" : "courier.CreateCourierTest.createNewCourierTest",
+  "historyId" : "b4becc863a2d70dc181a8674563189df",
+  "time" : {
+    "start" : 1675315159049,
+    "stop" : 1675315162743,
+    "duration" : 3694
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "courier"
+  }, {
+    "name" : "testClass",
+    "value" : "courier.CreateCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createNewCourierTest"
+  }, {
+    "name" : "suite",
+    "value" : "courier.CreateCourierTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-NCTBSVOA"
+  }, {
+    "name" : "thread",
+    "value" : "13720@LAPTOP-NCTBSVOA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d2eb6d0f35ed569.json",
+  "parameterValues" : [ ]
+}

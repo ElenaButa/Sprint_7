@@ -1,4 +1,11 @@
 courier\BaseCourierTest.class
-courier\CreateCourierTest.class
-courier\DeleteCourierTest.class
+orders\BaseOrderTest.class
+orders\ListOrderTest.class
+orders\CancelOrderTest.class
+orders\CreateOrderTest.class
 courier\LoginCourierTest.class
+orders\OrderForNumberTest.class
+courier\CreateCourierTest.class
+orders\GetOrderTest.class
+orders\СompleteOrderTest.class
+courier\DeleteCourierTest.class

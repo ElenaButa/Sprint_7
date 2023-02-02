@@ -1,0 +1,56 @@
+{
+  "uid" : "f9c1044606812f11",
+  "name" : "cantDeleteCouriersWithoutNonExistentIdTest",
+  "fullName" : "courier.DeleteCourierTest.cantDeleteCouriersWithoutNonExistentIdTest",
+  "historyId" : "c2e7b38352fdee79a2edaa3b5aae11ca",
+  "time" : {
+    "start" : 1675315164408,
+    "stop" : 1675315164604,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "courier"
+  }, {
+    "name" : "testClass",
+    "value" : "courier.DeleteCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "cantDeleteCouriersWithoutNonExistentIdTest"
+  }, {
+    "name" : "suite",
+    "value" : "courier.DeleteCourierTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-NCTBSVOA"
+  }, {
+    "name" : "thread",
+    "value" : "13720@LAPTOP-NCTBSVOA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9c1044606812f11.json",
+  "parameterValues" : [ ]
+}

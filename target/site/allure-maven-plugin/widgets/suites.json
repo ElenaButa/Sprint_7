@@ -1,8 +1,52 @@
 {
-  "total" : 3,
+  "total" : 9,
   "items" : [ {
+    "uid" : "c1df4352b5c26624cf8d7907ec3fbb22",
+    "name" : "orders.CancelOrderTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "39a656e63994f66ad8f25cc0557aedc8",
+    "name" : "orders.GetOrderTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "04fd3e4f2f0b6abd87245b9735f8d882",
+    "name" : "orders.СompleteOrderTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "fc2ac1c9c636e8161c2e0386e16e046a",
     "name" : "courier.LoginCourierTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "12b7d36b038c80e8940b83b6d2f24ba9",
+    "name" : "orders.CreateOrderTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -25,6 +69,28 @@
   }, {
     "uid" : "f67639dc9deeb52124fee8b2be0ddbb8",
     "name" : "courier.DeleteCourierTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b30a971ab2347660fad347afd7509c11",
+    "name" : "orders.ListOrderTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "0856fed7eccdf292b921292fd33b2896",
+    "name" : "orders.OrderForNumberTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

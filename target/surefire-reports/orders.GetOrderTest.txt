@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: orders.GetOrderTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 61.308 s <<< FAILURE! - in orders.GetOrderTest
+getOrderTest(orders.GetOrderTest)  Time elapsed: 61.305 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <504>.
+
+	at orders.GetOrderTest.getOrderTest(GetOrderTest.java:47)
+

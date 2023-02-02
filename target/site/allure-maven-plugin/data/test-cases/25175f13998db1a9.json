@@ -1,0 +1,56 @@
+{
+  "uid" : "25175f13998db1a9",
+  "name" : "nonExistentPasswordTest",
+  "fullName" : "courier.LoginCourierTest.nonExistentPasswordTest",
+  "historyId" : "eae44b7f040ada9c634060deae661802",
+  "time" : {
+    "start" : 1675315165375,
+    "stop" : 1675315165977,
+    "duration" : 602
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "courier"
+  }, {
+    "name" : "testClass",
+    "value" : "courier.LoginCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "nonExistentPasswordTest"
+  }, {
+    "name" : "suite",
+    "value" : "courier.LoginCourierTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-NCTBSVOA"
+  }, {
+    "name" : "thread",
+    "value" : "13720@LAPTOP-NCTBSVOA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25175f13998db1a9.json",
+  "parameterValues" : [ ]
+}

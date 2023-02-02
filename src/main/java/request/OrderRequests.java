@@ -2,8 +2,10 @@ package request;
 
 import dto.DtoCourier;
 import dto.DtoOrder;
+import groovyjarjarantlr4.v4.runtime.atn.SemanticContext;
 import io.restassured.response.Response;
 
+import static data.DataOrders.ORDER_URL;
 import static io.restassured.RestAssured.given;
 
 public class OrderRequests {
@@ -13,7 +15,7 @@ public class OrderRequests {
                 .and()
                 .body(dtoOrder)
                 .when()
-                .post("/api/v1/orders");
+                .post(ORDER_URL);
         return response;
     }
 
@@ -22,7 +24,7 @@ public class OrderRequests {
                 .header("Content-type", "application/json")
                 .params("t", dtoOrder.getTrack())
                 .when()
-                .get("/api/v1/orders/track");
+                .get(ORDER_URL + "/track");
         return response;
     }
 
@@ -31,7 +33,7 @@ public class OrderRequests {
                 .header("Content-type", "application/json")
                 .params("courierId", dtoCourier.getId())
                 .when()
-                .put(String.format("/api/v1/orders/accept/%d", dtoOrder.getId()));
+                .put(String.format(ORDER_URL + "/accept/%d", dtoOrder.getId()));
         return response;
     }
 
@@ -40,7 +42,7 @@ public class OrderRequests {
                 .header("Content-type", "application/json")
                 .params("courierId", dtoCourier.getId())
                 .when()
-                .get("/api/v1/orders");
+                .get(ORDER_URL);
         return response;
     }
 
@@ -50,15 +52,16 @@ public class OrderRequests {
                 .and()
                 .body(dtoOrder)
                 .when()
-                .put("/api/v1/orders/cancel");
+                .put(ORDER_URL + "/cancel");
         return response;
     }
+
     public static Response completeOrder(DtoOrder dtoOrder) {
         Response response = given()
                 .header("Content-type", "application/json")
                 .pathParams("id", dtoOrder.getId())
                 .when()
-                .put("/api/v1/orders/finish/{id}");
+                .put(ORDER_URL + "/finish/{id}");
         return response;
     }
 

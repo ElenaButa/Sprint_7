@@ -1,4 +1,11 @@
 C:\JavaCourse\Sprint_7\src\test\java\courier\CreateCourierTest.java
+C:\JavaCourse\Sprint_7\src\test\java\orders\СompleteOrderTest.java
+C:\JavaCourse\Sprint_7\src\test\java\orders\OrderForNumberTest.java
+C:\JavaCourse\Sprint_7\src\test\java\orders\CreateOrderTest.java
+C:\JavaCourse\Sprint_7\src\test\java\orders\ListOrderTest.java
+C:\JavaCourse\Sprint_7\src\test\java\orders\GetOrderTest.java
 C:\JavaCourse\Sprint_7\src\test\java\courier\LoginCourierTest.java
 C:\JavaCourse\Sprint_7\src\test\java\courier\BaseCourierTest.java
 C:\JavaCourse\Sprint_7\src\test\java\courier\DeleteCourierTest.java
+C:\JavaCourse\Sprint_7\src\test\java\orders\BaseOrderTest.java
+C:\JavaCourse\Sprint_7\src\test\java\orders\CancelOrderTest.java

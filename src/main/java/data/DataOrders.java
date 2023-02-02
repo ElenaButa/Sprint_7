@@ -12,5 +12,6 @@ public class DataOrders {
     public static final String[] color = {"BLUE"};
 
     public static final String COURIER_URL = "/api/v1/courier";
+    public static final String ORDER_URL = "/api/v1/orders";
 
 }

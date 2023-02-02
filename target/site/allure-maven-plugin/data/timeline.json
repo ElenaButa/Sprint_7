@@ -4,113 +4,230 @@
   "children" : [ {
     "name" : "LAPTOP-NCTBSVOA",
     "children" : [ {
-      "name" : "13364@LAPTOP-NCTBSVOA.main(1)",
+      "name" : "13720@LAPTOP-NCTBSVOA.main(1)",
       "children" : [ {
-        "name" : "nonExistentUsernameTest",
-        "uid" : "52d4e4e6daf85923",
-        "parentUid" : "603b6b108147881f9be2e56deb90f4e0",
+        "name" : "receivingOrdersForNumberTest",
+        "uid" : "bb5b8cb376c8815b",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
         "status" : "passed",
         "time" : {
-          "start" : 1674898671723,
-          "stop" : 1674898672227,
-          "duration" : 504
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkingRequiredFieldsDuringLoginPasswordTest",
-        "uid" : "f80e7b57a631a9fc",
-        "parentUid" : "603b6b108147881f9be2e56deb90f4e0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1674898670943,
-          "stop" : 1674898671721,
-          "duration" : 778
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "createNewCourierTest",
-        "uid" : "e1f5bd0e99bfefb",
-        "parentUid" : "603b6b108147881f9be2e56deb90f4e0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1674898662969,
-          "stop" : 1674898667143,
-          "duration" : 4174
+          "start" : 1675315231074,
+          "stop" : 1675315232443,
+          "duration" : 1369
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "cantDeleteCouriersWithoutNonExistentIdTest",
-        "uid" : "9e4ac7387a1dfaac",
-        "parentUid" : "603b6b108147881f9be2e56deb90f4e0",
+        "uid" : "f9c1044606812f11",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
         "status" : "passed",
         "time" : {
-          "start" : 1674898668794,
-          "stop" : 1674898669018,
-          "duration" : 224
+          "start" : 1675315164408,
+          "stop" : 1675315164604,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewCourierTest",
+        "uid" : "7d2eb6d0f35ed569",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675315159049,
+          "stop" : 1675315162743,
+          "duration" : 3694
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Получить заказ по его номеру",
+        "uid" : "bf17355ae3019d82",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1675315167956,
+          "stop" : 1675315229264,
+          "duration" : 61308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "completedOrderTest",
+        "uid" : "5312f4927ef4fb0f",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1675315232485,
+          "stop" : 1675315234401,
+          "duration" : 1916
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "createNewCourierWithoutRequiredFieldsTest",
-        "uid" : "875a06faf9ac2fb5",
-        "parentUid" : "603b6b108147881f9be2e56deb90f4e0",
+        "uid" : "22f7287a88b946b4",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
         "status" : "passed",
         "time" : {
-          "start" : 1674898667205,
-          "stop" : 1674898667919,
-          "duration" : 714
+          "start" : 1675315162827,
+          "stop" : 1675315163537,
+          "duration" : 710
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "cantCreateTwoOwnersCouriersTest",
-        "uid" : "9d9c415a7cc52304",
-        "parentUid" : "603b6b108147881f9be2e56deb90f4e0",
+        "uid" : "69a0ecf0910904d",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
         "status" : "passed",
         "time" : {
-          "start" : 1674898667925,
-          "stop" : 1674898668791,
-          "duration" : 866
+          "start" : 1675315163544,
+          "stop" : 1675315164403,
+          "duration" : 859
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receivingOrdersListTest",
+        "uid" : "5d6c66cfdb2a77e",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675315229267,
+          "stop" : 1675315231067,
+          "duration" : 1800
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkingRequiredFieldsDuringLoginPasswordTest",
+        "uid" : "a22815b1a1825212",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675315165979,
+          "stop" : 1675315166398,
+          "duration" : 419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа с различными цветами",
+        "uid" : "495ba8dcc42c4f68",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675315167572,
+          "stop" : 1675315167762,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа с различными цветами",
+        "uid" : "89d679e3c390f298",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675315167763,
+          "stop" : 1675315167952,
+          "duration" : 189
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "checkingRequiredFieldsDuringPasswordTest",
-        "uid" : "9a9ebcb26948d711",
-        "parentUid" : "603b6b108147881f9be2e56deb90f4e0",
+        "uid" : "b3ac99f5abf3cd0a",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
         "status" : "passed",
         "time" : {
-          "start" : 1674898669020,
-          "stop" : 1674898669955,
-          "duration" : 935
+          "start" : 1675315164607,
+          "stop" : 1675315165374,
+          "duration" : 767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа с различными цветами",
+        "uid" : "14cad0646624e409",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675315167179,
+          "stop" : 1675315167359,
+          "duration" : 180
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "nonExistentPasswordTest",
-        "uid" : "8ad9ecdfd69c5f88",
-        "parentUid" : "603b6b108147881f9be2e56deb90f4e0",
+        "uid" : "25175f13998db1a9",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
         "status" : "passed",
         "time" : {
-          "start" : 1674898669957,
-          "stop" : 1674898670942,
-          "duration" : 985
+          "start" : 1675315165375,
+          "stop" : 1675315165977,
+          "duration" : 602
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа с различными цветами",
+        "uid" : "78b78c85a55e3ceb",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675315167360,
+          "stop" : 1675315167570,
+          "duration" : 210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Отменить заказ",
+        "uid" : "2de9ad5f3fcf45a9",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1675315166785,
+          "stop" : 1675315167163,
+          "duration" : 378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "nonExistentUsernameTest",
+        "uid" : "c9e7f4f205acf352",
+        "parentUid" : "1477c6bbc30ebff21bffc159a28952e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675315166400,
+          "stop" : 1675315166783,
+          "duration" : 383
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "603b6b108147881f9be2e56deb90f4e0"
+      "uid" : "1477c6bbc30ebff21bffc159a28952e2"
     } ],
     "uid" : "e70acf0b7f347d3efabf6384e263f780"
   } ]

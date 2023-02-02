@@ -2,6 +2,8 @@ package dto;
 
 import data.DataOrders;
 
+import java.util.List;
+
 public class DtoOrder {
     private int id;
     private String track;
@@ -17,9 +19,9 @@ public class DtoOrder {
     private String rentTime;
     private String deliveryDate;
     private String comment;
-    private String[] color;
+    private List<String> color;
 
-    public DtoOrder(String firstName, String lastName, String address, String metroStation, String phone, String rentTime, String deliveryDate, String comment, String[] color) {
+    public DtoOrder(String firstName, String lastName, String address, String metroStation, String phone, String rentTime, String deliveryDate, String comment, List<String> color) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
@@ -30,6 +32,7 @@ public class DtoOrder {
         this.comment = comment;
         this.color = color;
     }
+
     public DtoOrder() {
         this.firstName = DataOrders.firstName;
         this.lastName = DataOrders.lastName;
@@ -39,7 +42,7 @@ public class DtoOrder {
         this.rentTime = DataOrders.rentTime;
         this.deliveryDate = DataOrders.deliveryDate;
         this.comment = DataOrders.comment;
-        this.color = DataOrders.color;
+        this.color = List.of(DataOrders.color);
     }
 
     public DtoOrder(int courierId, String nearestStation, int limit, int page) {
@@ -165,11 +168,21 @@ public class DtoOrder {
         this.comment = comment;
     }
 
-    public String[] getColor() {
+//    public String[] getColor() {
+//        return color;
+//    }
+//
+//    public void setColor(String[] color) {
+//        this.color = color;
+//    }
+
+
+    public List<String> getColor() {
         return color;
     }
 
-    public void setColor(String[] color) {
+    public void setColor(List<String> color) {
         this.color = color;
     }
+
 }

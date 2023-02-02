@@ -1,80 +1,170 @@
 [ {
-  "uid" : "f80e7b57a631a9fc",
-  "name" : "checkingRequiredFieldsDuringLoginPasswordTest",
+  "uid" : "bb5b8cb376c8815b",
+  "name" : "receivingOrdersForNumberTest",
   "time" : {
-    "start" : 1674898670943,
-    "stop" : 1674898671721,
-    "duration" : 778
+    "start" : 1675315231074,
+    "stop" : 1675315232443,
+    "duration" : 1369
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9d9c415a7cc52304",
+  "uid" : "5312f4927ef4fb0f",
+  "name" : "completedOrderTest",
+  "time" : {
+    "start" : 1675315232485,
+    "stop" : 1675315234401,
+    "duration" : 1916
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf17355ae3019d82",
+  "name" : "Получить заказ по его номеру",
+  "time" : {
+    "start" : 1675315167956,
+    "stop" : 1675315229264,
+    "duration" : 61308
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "69a0ecf0910904d",
   "name" : "cantCreateTwoOwnersCouriersTest",
   "time" : {
-    "start" : 1674898667925,
-    "stop" : 1674898668791,
-    "duration" : 866
+    "start" : 1675315163544,
+    "stop" : 1675315164403,
+    "duration" : 859
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9a9ebcb26948d711",
-  "name" : "checkingRequiredFieldsDuringPasswordTest",
-  "time" : {
-    "start" : 1674898669020,
-    "stop" : 1674898669955,
-    "duration" : 935
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8ad9ecdfd69c5f88",
-  "name" : "nonExistentPasswordTest",
-  "time" : {
-    "start" : 1674898669957,
-    "stop" : 1674898670942,
-    "duration" : 985
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9e4ac7387a1dfaac",
+  "uid" : "f9c1044606812f11",
   "name" : "cantDeleteCouriersWithoutNonExistentIdTest",
   "time" : {
-    "start" : 1674898668794,
-    "stop" : 1674898669018,
-    "duration" : 224
+    "start" : 1675315164408,
+    "stop" : 1675315164604,
+    "duration" : 196
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "875a06faf9ac2fb5",
+  "uid" : "22f7287a88b946b4",
   "name" : "createNewCourierWithoutRequiredFieldsTest",
   "time" : {
-    "start" : 1674898667205,
-    "stop" : 1674898667919,
-    "duration" : 714
+    "start" : 1675315162827,
+    "stop" : 1675315163537,
+    "duration" : 710
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "52d4e4e6daf85923",
-  "name" : "nonExistentUsernameTest",
+  "uid" : "78b78c85a55e3ceb",
+  "name" : "Создание заказа с различными цветами",
   "time" : {
-    "start" : 1674898671723,
-    "stop" : 1674898672227,
-    "duration" : 504
+    "start" : 1675315167360,
+    "stop" : 1675315167570,
+    "duration" : 210
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e1f5bd0e99bfefb",
+  "uid" : "2de9ad5f3fcf45a9",
+  "name" : "Отменить заказ",
+  "time" : {
+    "start" : 1675315166785,
+    "stop" : 1675315167163,
+    "duration" : 378
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d2eb6d0f35ed569",
   "name" : "createNewCourierTest",
   "time" : {
-    "start" : 1674898662969,
-    "stop" : 1674898667143,
-    "duration" : 4174
+    "start" : 1675315159049,
+    "stop" : 1675315162743,
+    "duration" : 3694
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9e7f4f205acf352",
+  "name" : "nonExistentUsernameTest",
+  "time" : {
+    "start" : 1675315166400,
+    "stop" : 1675315166783,
+    "duration" : 383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a22815b1a1825212",
+  "name" : "checkingRequiredFieldsDuringLoginPasswordTest",
+  "time" : {
+    "start" : 1675315165979,
+    "stop" : 1675315166398,
+    "duration" : 419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3ac99f5abf3cd0a",
+  "name" : "checkingRequiredFieldsDuringPasswordTest",
+  "time" : {
+    "start" : 1675315164607,
+    "stop" : 1675315165374,
+    "duration" : 767
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89d679e3c390f298",
+  "name" : "Создание заказа с различными цветами",
+  "time" : {
+    "start" : 1675315167763,
+    "stop" : 1675315167952,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25175f13998db1a9",
+  "name" : "nonExistentPasswordTest",
+  "time" : {
+    "start" : 1675315165375,
+    "stop" : 1675315165977,
+    "duration" : 602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14cad0646624e409",
+  "name" : "Создание заказа с различными цветами",
+  "time" : {
+    "start" : 1675315167179,
+    "stop" : 1675315167359,
+    "duration" : 180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "495ba8dcc42c4f68",
+  "name" : "Создание заказа с различными цветами",
+  "time" : {
+    "start" : 1675315167572,
+    "stop" : 1675315167762,
+    "duration" : 190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d6c66cfdb2a77e",
+  "name" : "receivingOrdersListTest",
+  "time" : {
+    "start" : 1675315229267,
+    "stop" : 1675315231067,
+    "duration" : 1800
   },
   "status" : "passed",
   "severity" : "normal"
