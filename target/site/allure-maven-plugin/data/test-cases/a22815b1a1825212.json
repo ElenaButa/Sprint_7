@@ -1,0 +1,56 @@
+{
+  "uid" : "a22815b1a1825212",
+  "name" : "checkingRequiredFieldsDuringLoginPasswordTest",
+  "fullName" : "courier.LoginCourierTest.checkingRequiredFieldsDuringLoginPasswordTest",
+  "historyId" : "87b4d7ba98c67400a8f4ad0c92ff3387",
+  "time" : {
+    "start" : 1675315165979,
+    "stop" : 1675315166398,
+    "duration" : 419
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "courier"
+  }, {
+    "name" : "testClass",
+    "value" : "courier.LoginCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkingRequiredFieldsDuringLoginPasswordTest"
+  }, {
+    "name" : "suite",
+    "value" : "courier.LoginCourierTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-NCTBSVOA"
+  }, {
+    "name" : "thread",
+    "value" : "13720@LAPTOP-NCTBSVOA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a22815b1a1825212.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "78b78c85a55e3ceb",
+  "name" : "Создание заказа с различными цветами",
+  "fullName" : "orders.CreateOrderTest.createOrderColorBlueTest[Цвет: [GRAY]]",
+  "historyId" : "a29fd9d9b2e6515e340c335ce9275e92",
+  "time" : {
+    "start" : 1675315167360,
+    "stop" : 1675315167570,
+    "duration" : 210
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "orders"
+  }, {
+    "name" : "testClass",
+    "value" : "orders.CreateOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderColorBlueTest[Цвет: [GRAY]]"
+  }, {
+    "name" : "suite",
+    "value" : "orders.CreateOrderTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-NCTBSVOA"
+  }, {
+    "name" : "thread",
+    "value" : "13720@LAPTOP-NCTBSVOA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78b78c85a55e3ceb.json",
+  "parameterValues" : [ ]
+}
